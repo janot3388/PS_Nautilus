@@ -7,7 +7,7 @@ def calculaSit(x1,x2,x3):
         return False
 
 #INPUT DAS LISTAS DE CADA NOTA
-print("\NINSIRA CADA NOTA SEPARADA COM UM ESPAÇO")
+print("\nINSIRA CADA NOTA SEPARADA COM UM ESPAÇO")
 notas1 = list(map(float, input("\nINSIRA NOTAS 1 DOS 10 ALUNOS: ").split()))
 notas2 = list(map(float, input("\nINSIRA NOTAS 2 DOS 10 ALUNOS: ").split()))
 notas3 = list(map(float, input("\nINSIRA NOTAS 3 DOS 10 ALUNOS: ").split()))
