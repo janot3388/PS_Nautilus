@@ -1,0 +1,5 @@
+<launch>
+  <rosparam command="load" file="$(find pkg_a)/config/param.yaml"/>
+  <node pkg="pkg_a" type="sistema.py" name="sis" output="screen"/>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d /root/catkin_ws/src/pkg_a/rviz/solar_system.rviz"/>
+</launch>

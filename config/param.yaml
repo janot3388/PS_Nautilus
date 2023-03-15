@@ -1,0 +1,28 @@
+sun:
+  rd: 1
+  od: 0
+  p: 0
+earth:
+  rd: 0.1
+  od: 2
+  p: 4
+mars:
+  rd: 0.1
+  od: 3
+  p: 3
+moon:
+  rd: 0.1
+  od: 0.3
+  p: 25
+nau:
+  rd: 0.1
+  od: 5
+  p: 3.5
+ti:
+  rd: 0.1
+  od: 1
+  p: 10
+lu:
+  rd: 0.1
+  od: 0.2
+  p: 25
