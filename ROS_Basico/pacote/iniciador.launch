@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="pacote" type="publi.py" name="node1" output="screen"/>
+  <node pkg="pacote" type="subs.py" name="node2" output="screen"/>
+</launch>
